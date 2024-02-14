@@ -278,7 +278,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h2 class="section-heading text-uppercase">KONTAKT</h2>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-3">
@@ -313,16 +313,16 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">&copy; 2024 Fontäne e.V.</div>
+                    <div class="col-lg-4 text-lg-start">&copy; <span id="year">2024</span> Fontäne e.V.</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <!--<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>-->
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Satzung</a>
-                        <a class="link-dark text-decoration-none me-3" href="#!">Datenschutz</a>
-                        <a class="link-dark text-decoration-none" href="#!">Impressum</a>
+                        <a class="link-dark text-decoration-none me-3" data-bs-toggle="modal" href="#satzungModal">Satzung</a>
+                        <a class="link-dark text-decoration-none me-3" data-bs-toggle="modal" href="#datenschutzModal">Datenschutz</a>
+                        <a class="link-dark text-decoration-none" data-bs-toggle="modal" href="#impressumModal">Impressum</a>
                     </div>
                 </div>
             </div>
@@ -530,6 +530,143 @@
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Satzung modal popup-->
+        <div class="portfolio-modal modal fade" id="satzungModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Satzung</h2>
+                                    <p>Des FONTÄNE- Bildung- und Informationszentrum e.V. Braunschweig. Braunschweig, den 27. Oktober 1997</p>
+                                    <h3>§1</h3>
+                                    <h3>Name und Sitz</h3>
+                                    <p><strong>1.</strong> Er trägt den Namen FONTÄNE - Bildung- und Informationszentrum e.V.<br>
+                                        <strong>2</strong>. Der Sitz ist in Braunschweig.<br>
+                                        <strong>3.</strong> Der Verein soll in das Vereinsregister eingetragen werden und führt dann die Abkürzung e.V.
+                                    </p>
+                                    <h3>§2</h3>
+                                    <h3>Zweck des Vereins</h3>
+                                    <p>Der Verein hat sich zur grundsätzlichen Aufgabe und zum Ziel gesetzt sich für die Völkerverständigung und Bildung einzusetzen. Der Verein ist der Überzeugung, dass sie durch Bildung und Information den Gedanken der Völkerverständigung und der Toleranz am besten dienen können. In diesem Rahmen soll der Verein im sozialen, kulturellen, sprachlichen, schulischen und außerschulischen Bereich tätig werden. Der Verein wird seinen Vereinszweck dadurch verwirklichen, dass Abende organisiert werden, in dem sich die verschiedenen Kulturen und Gesellschaftsteile, und insbesondere die Eltern der von uns geförderten Schüler zusammenkommen.<br>
+                                        Weiterhin wird von Verein angestrebt Seminare, Tagungen, sportliche Veranstaltungen, Straßenfeste, Studienreisen, Schüleraustauschprogramme zu organisiert und durchzuführen.
+                                    </p>
+                                    <h4>Dies soll insbesondere erreicht werden durch:</h4>
+                                    <p><strong>1.</strong> Kontaktaufnahme und Zusammenarbeit mit Vereinen und Behörden unseres Wirkungskreises.<br>
+                                        <strong>2.</strong> Hilfeleistung und Beratung bei pädagogischen, schulischen und sozialen Problemen die sich bei Jugendlichen ergeben.<br>
+                                        <strong>3.</strong> Einrichtung von entsprechenden Förderprogrammen. Insbesondere durch das Einrichten von Hausaufgabebetreuungsdiensten, Nachhilfeunterrichten und Computerkursen.<br>
+                                        <strong>4.</strong> Gründung von Jugendgruppen.<br>
+                                        <strong>5.</strong> Um begabten Studenten / innen zu fördern vergibt der Verein bedürftigen inländischen und ausländischen Studenten / innen Stipendien. Im Rahmen der internationalen Jugendzusammenarbeit werden Studienfahrten unternommen, die das Kennenlernen anderer Länder mit ihren Eigenheiten und Problemen ermöglichen sollen und dabei den Gedanken der Völkerverständigung dienen soll.
+                                    </p>
+                                    <h3>§3</h3>
+                                    <h3>Gemeinnützigkeit</h3>
+                                    <p>Der Verein ist gemeinnützig und verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts „steuerbegünstigte Zwecke“ der Abgabenordnung. Der Verein ist selbstlos tätig; er verfolgt keine wirtschaftliche Zwecke. Die Mittel des Vereins dürfen nur für die satzungsgemäßen Zwecke verwendet werden. Mitglieder erhalten keine Zuwendungen aus Mitteln des Vereins. Es darf keine Person durch Ausgaben, die dem Zweck der Körperschaft fremd sind oder durch unverhältnismäßig hohe Zuwendungen begünstigt werden.</p>
+                                    <h3>§4</h3>
+                                    <h3>Geschäftsjahr</h3>
+                                    <p>Das Geschäftsjahr ist das Kalenderjahr.</p>
+                                    <h3>§5</h3>
+                                    <h3>Mitgliedschaften</h3>
+                                    <p>Mitglied des Vereins kann werden, Jede juristische und natürliche Person, die Satzung des Vereins anerkannt und mindestens 16 Jahre alt ist. Die Aufnahme eines Mitglieds erfolgt durch Beschluss des Vorstandes. Zur Aufnahme ist eine schriftliche Anmeldung erforderlich. Die Ablehnung eines Aufnahmegesuches ist schriftlich mitzuteilen. Sie braucht nicht begründet zu sein. Der Abgelehnte hat das Recht die Mitgliederversammlung anzurufen. Das neu aufgenommene Mitglied verpflichtet sich durch seine Beitrittserklärung, die Satzung des Vereines und derjenigen Verbände, denen der Verein selbst als Mitglied angehört, anzuerkennen und zu achten.</p>
+                                    <h4>Die Mitgliedschaft erlischt:</h4>
+                                    <p><strong>a.</strong> Durch freiwilligen Austritt, der durch eine schriftliche Erklärung bis zum Ende eines Jahres mit einer Frist von sechs Wochen erfolgen kann<br>
+                                        <strong>b.</strong> Durch Tod<br>
+                                        <strong>c.</strong> Durch Ausschluss aus dem Verein
+                                    </p>
+                                    <h4>Der Ausschluss kann nur durch den Vorstand beschlossen werden:</h4>
+                                    <p><strong>1.</strong> Wenn das Mitglied trotz Mahnung mit der Bezahlung von Mitgliedsbeiträgen für eine Zeit von mindestens einem Vierteljahr in Rückstand geraten ist.<br>
+                                        <strong>2.</strong> Bei grobem Verstoß gegen in die Satzung des Vereins.<br>
+                                        <strong>3.</strong> Bei grober Verletzung oder Beschädigung des vereinseigenen Vermögens.<br>
+                                        <strong>4.</strong> Wenn sich das Mitglied unehrenhaft verhält oder das Ansehen des Vereins durch Äußerungen oder Handlungen herabsetzt.<br>
+                                        Der Ausschluss ist dem Mitglied durch eingeschriebenen Brief mitzuteilen Gegen den Ausschluss steht dem Mitglied die Berufung an die Hauptversammlung zu. Ausgetretene und ausgeschlossene Mitglieder haben die Mitgliedskarte abzugeben.
+                                    </p>
+                                    <h3>§6</h3>
+                                    <h3>Beiträge der Mitglieder</h3>
+                                    <p>Von den Mitgliedern werden Jahresbeiträge erhoben. Höhe und Fälligkeit werden von der Mitgliederversammlung festgelegt.</p>
+                                    <h3>§7</h3>
+                                    <h3>Organe des Vereins</h3>
+                                    <h4>Die Organe des Vereins sind:</h4>
+                                    <p><strong>a.</strong> Mitgliederversammlung (Hauptversammlung)<br>
+                                        <strong>b.</strong> Der Vorstand
+                                    </p>
+                                    <h3>§8</h3>
+                                    <h3>Die Mitgliederversammlung</h3>
+                                    <p>Jedes zweite Jahr findet eine ordentliche Hauptversammlung statt. Sie ist vom Vorsitzenden einzuberufen. Die Einberufung erfolgt mindestens zehn Tage zuvor schriftlich unter Angabe der Tagesordnung.<br>
+                                        Die Hauptversammlung wird von dem 1. Vorsitzenden, stellvertretenden oder dem Schriftführer geleitet.<br>
+                                        Die Beschlüsse werden mit einfacher Mehrheit gefasst. Für Satzungsänderungen ist eine Mehrheit von ¾ der erschienenen Mitglieder erforderlich. Bei Stimmengleichheit gilt der Antrag als abgelehnt. Stimmberechtigt ist, wer bis zum Ablauf des Monats vor der Hauptversammlung das 18. Lebensjahr vollendet hat. Über den Ablauf der Versammlung ist ein Protokoll zu führen, das vom Schriftführer und dem ersten Vorsitzenden zu unterschreiben ist.<br>
+                                        Der Vorstand hat das Recht bei Bedarf jederzeit eine Mitgliederversammlung einzuberufen, wenn er dies im Interesse des Vereins, für erforderlich hält. Ferner ist die Hauptversammlung einzuberufen, wenn 40% der Mitglieder der Berufung schriftlich unter Angaben des Zwecks und der Gründe verlangt.
+                                    </p>
+                                    <h3>§9</h3>
+                                    <h3>Der Vorstand</h3>
+                                    <p>Der Vorstand wird von der Hauptversammlung für die Dauer von zwei Jahren gewählt. Die Wahl ist offen. Auf Wunsch eines Mitgliedes kann die Wahl auch geheim durchgeführt werden.</p>
+                                    <h4>Der Vorstand besteht aus:</h4>
+                                    <p>Dem ersten Vorsitzenden, seinem Stellvertreter, dem Schriftführer, dem Kassierer sowie weiteren drei Beisitzern.<br>
+                                        Der Vorsitzende, sein Stellvertreter sind Vorstand bevollmächtigt.<br>
+                                        Über die Beschlussfassung gelten die Vorschriften des § 8.
+                                    </p>
+                                    <h3>§10</h3>
+                                    <h3>Kassenprüfer</h3>
+                                    <p>Die Hauptversammlung wählt auf die Dauer von zwei Jahr drei Kassenprüfer. Sie haben vor dem Rechnungsschluß eine ordentliche Kassenprüfung vorzunehmen und darüber in der Hauptversammlung Bericht zu erstatten.</p>
+                                    <h3>§11</h3>
+                                    <h3>Auflösung des Vereins</h3>
+                                    <p>Die Auflösung des Vereins kann nur in Mitgliederversammlung beschlossen werden, auf deren Tagesordnung die Beschlussfassung über die Vereinsauflösung den Mitgliedern angekündigt worden ist. Der Beschluss bedarf einer Mehrheit von ¾ die gesamten Mitglieder. Wird diese Mehrheit nicht erreicht, entscheiden in der 2. Sitzung ¾ der anwesenden Mitglieder über die Auflösung. Für den Fall der Auflösung bestellt die Hauptversammlung zwei Liquidatoren, die die Geschäfte des Vereins abzuwickeln haben.<br>
+                                        Bei Auflösung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an das Deutsche Rote Kreuz, dass es unmittelbar und ausschließlich für gemeinnützige Zwecke zu verwenden hat.
+                                    </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Datenschutz modal popup-->
+        <div class="portfolio-modal modal fade" id="datenschutzModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Datenschutz</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        schließen
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Impressum modal popup-->
+        <div class="portfolio-modal modal fade" id="impressumModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <h2 class="text-uppercase">Impressum</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        schließen
                                     </button>
                                 </div>
                             </div>
